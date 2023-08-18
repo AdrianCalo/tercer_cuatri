@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/*header*/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(223, 55, 4);
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*--------------------------*/
+/*Buscador*/
+.buscador{
+    margin-top: 10px;
+    /* border: 2px solid orange; */
+    width: 50%;
+    display: flex;
+    align-items: start;
+
+}
+.inpBusca{
+    width: 70%;
+    border: 1px solid black;
+    border: 2px solid orange;
+    border-radius: 5px;
+    box-shadow: 1px 3px 20px gray;
+
+
+}

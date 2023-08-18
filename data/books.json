@@ -1,0 +1,152 @@
+{
+    "libros": {
+      "enciclopedias": [
+        {
+          "id": 1,
+          "titulo": "Enciclopedia del Universo",
+          "editorial": "Conocimiento Total",
+          "paginas": 800,
+          "valor": 50.99
+        },
+        {
+          "id": 2,
+          "titulo": "Enciclopedia de Biología",
+          "editorial": "Ciencia y Vida",
+          "paginas": 600,
+          "valor": 42.50
+        },
+        {
+          "id": 3,
+          "titulo": "Enciclopedia del Arte",
+          "editorial": "Arte Total",
+          "paginas": 700,
+          "valor": 48.75
+        },
+        {
+          "id": 4,
+          "titulo": "Enciclopedia de Geografía",
+          "editorial": "Mundo Global",
+          "paginas": 550,
+          "valor": 39.50
+        },
+        {
+          "id": 5,
+          "titulo": "Enciclopedia de Historia Antigua",
+          "editorial": "Pasado Milenario",
+          "paginas": 750,
+          "valor": 54.99
+        }
+      ],
+      "cuentos": [
+        {
+          "id": 6,
+          "titulo": "Cuentos de Hadas",
+          "editorial": "Cuentos Mágicos",
+          "paginas": 150,
+          "valor": 8.99
+        },
+        {
+          "id": 7,
+          "titulo": "Cuentos de Misterio",
+          "editorial": "Misterio en Palabras",
+          "paginas": 130,
+          "valor": 7.99
+        },
+        {
+          "id": 8,
+          "titulo": "Cuentos del Futuro",
+          "editorial": "Futuro Imaginado",
+          "paginas": 170,
+          "valor": 9.25
+        },
+        {
+          "id": 9,
+          "titulo": "Cuentos de Fantasía",
+          "editorial": "Fantasía Literaria",
+          "paginas": 140,
+          "valor": 7.50
+        },
+        {
+          "id": 10,
+          "titulo": "Aventuras de Piratas",
+          "editorial": "Pirateando Libros",
+          "paginas": 240,
+          "valor": 11.25
+        }
+      ],
+      "novelas": [
+        {
+          "id": 11,
+          "titulo": "Aventuras en la Selva",
+          "editorial": "Aventura Editores",
+          "paginas": 220,
+          "valor": 12.50
+        },
+        {
+          "id": 12,
+          "titulo": "Misterio en la Mansión",
+          "editorial": "Suspenso Editorial",
+          "paginas": 320,
+          "valor": 15.75
+        },
+        {
+          "id": 13,
+          "titulo": "Historias de Ciencia Ficción",
+          "editorial": "Ficción Futura",
+          "paginas": 260,
+          "valor": 14.00
+        },
+        {
+          "id": 14,
+          "titulo": "Romance en París",
+          "editorial": "Romance Ediciones",
+          "paginas": 180,
+          "valor": 9.50
+        },
+        {
+          "id": 15,
+          "titulo": "Novela Histórica: Guerreros del Pasado",
+          "editorial": "Historia Viva",
+          "paginas": 380,
+          "valor": 17.99
+        }
+      ],
+      "mangas": [
+        {
+          "id": 16,
+          "titulo": "Manga Épico: Leyendas del Dragón",
+          "editorial": "Manga World",
+          "paginas": 180,
+          "valor": 10.25
+        },
+        {
+          "id": 17,
+          "titulo": "Manga Místico: El Elegido",
+          "editorial": "Manga World",
+          "paginas": 150,
+          "valor": 8.75
+        },
+        {
+          "id": 18,
+          "titulo": "Manga Mágico: Academia de Hechicería",
+          "editorial": "Manga World",
+          "paginas": 200,
+          "valor": 9.99
+        },
+        {
+          "id": 19,
+          "titulo": "Manga Místico: El Despertar",
+          "editorial": "Manga World",
+          "paginas": 160,
+          "valor": 9.25
+        },
+        {
+          "id": 20,
+          "titulo": "Aventuras en el Espacio",
+          "editorial": "Estelar Ediciones",
+          "paginas": 290,
+          "valor": 13.75
+        }
+      ]
+    }
+  }
