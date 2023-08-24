@@ -35,5 +35,9 @@ export class BooksService {
       throw new Error ('Request error'+ error);
     }
   }
-
+//segun vi a este metodo le tengo que agregar tbm el endpoit del tipo de libro
+//ejemplo enciclopedia. de igual forma no me funciono.
+//++en el endpoint de controler puse como books, al igual que le agrego books a la url para 
+//buscar los datos. pero en la terminal dice que el endpoint es libros al igual que el array de objetos
+// si lo cambio a libros no funciona. 
 }
