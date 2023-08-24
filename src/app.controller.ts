@@ -1,14 +1,26 @@
-import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
+import { Controller, Get, Param } from '@nestjs/common';
+import { BooksService } from './app.service';
 
-@Controller()
-export class AppController {
+@Controller('books')
+export class BooksController {
   //constructor(private readonly appService: AppService) {}
 //
   //@Get()
   //getHello(): string {
   //  return this.appService.getHello();
   //}
+constructor(private booksService:BooksService ){}
+  @Get()
+  getBooks(){
+    //me tiene que retornar algo
+    return this.booksService.getBooks();
+  }
+
+  @Get(':id')
+  getbook(@Param('id') id:number){
+    return this.booksService.getBook(id)
+  }
+
 }
 
 
