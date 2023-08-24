@@ -18,7 +18,7 @@ export class BooksService {
   //  }
   async getBooks():Promise <booksInterface[]>{
     try{                                  //porque funciona con books
-      const res= await fetch(`${booksURL}/books`);//books es el endpoit con el que va a inicial el controlador 'books'
+      const res= await fetch(`${booksURL}/libros`);//books es el endpoit con el que va a inicial el controlador 'books'
       const parsed= await res.json();//parceamos la data que viene 
       return parsed;//retornamos la data como objeto js
     }catch(error){
@@ -26,9 +26,10 @@ export class BooksService {
     }
   }
 
+  
   async getBook(id:number):Promise<booksInterface>{
     try{                                    //no deberia ser libros
-        const res= await fetch(`${booksURL}/books/${id}`);
+        const res= await fetch(`${booksURL}/libros/${id}`);
         const parsed= await res.json();
         return parsed;
     }catch(error){
@@ -40,4 +41,6 @@ export class BooksService {
 //++en el endpoint de controler puse como books, al igual que le agrego books a la url para 
 //buscar los datos. pero en la terminal dice que el endpoint es libros al igual que el array de objetos
 // si lo cambio a libros no funciona. 
+
+
 }

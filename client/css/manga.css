@@ -24,3 +24,59 @@ a{
 }
 
 /*--------------------------*/
+/* carrousel */
+#conteItemCarrusel{
+    border: 2px solid black;
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.itemCarrusel{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.tarjetaCarrusel{
+    height: 100%;
+}
+.flechasCarrusel{
+    background-color: rgb(69, 69, 236,);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0%; */
+
+}
+#img1{
+    background-color: rgb(142, 85, 196);
+}
+#img2{
+    background-color: rgb(84, 84, 224);
+}
+#img3{
+    background-color: rgb(26, 134, 107);
+}
+a{
+    text-decoration: none;
+}
+#contePuntos{
+    background-color: rgb(227, 252, 252);
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+#contePuntos a{
+    color: black;
+    font-size: none;
+    color: black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
