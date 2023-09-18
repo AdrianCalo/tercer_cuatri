@@ -18,8 +18,9 @@ export class BooksService {
   //  }
   async getBooks():Promise <booksInterface[]>{
     try{                                  //porque funciona con books
-      const res= await fetch(`${booksURL}/libros`);//books es el endpoit con el que va a inicial el controlador 'books'
+      const res= await fetch(`${booksURL}/cuentos`);//books es el endpoit con el que va a inicial el controlador 'books'
       const parsed= await res.json();//parceamos la data que viene 
+      console.log(parsed.mangas);
       return parsed;//retornamos la data como objeto js
     }catch(error){
       throw new Error('request error' + error);
